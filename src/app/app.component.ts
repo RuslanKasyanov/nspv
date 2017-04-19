@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  public width: number = 350;
+  public logo: string = 'assets/img/NaturesSunshine.png';
 }
