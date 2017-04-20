@@ -4,3 +4,11 @@
 .display-flex{
   display: flex;
 }
+button.button-custom{
+  color: #862d59;
+  border-color: #862d59;
+  background-color: transparent;
+}
+button.button-custom:active{
+  background-color: #862d59;
+}

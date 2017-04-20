@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header/header.component';
 import { InfoComponent } from './info/info.component';
 import { ContentComponent } from './content/content.component';
+import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { ContentComponent } from './content/content.component';
     AppComponent,
     HeaderComponent,
     InfoComponent,
-    ContentComponent
+    ContentComponent,
+    BreadcrumbComponent
   ],
   imports: [
     BrowserModule,
