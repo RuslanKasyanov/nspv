@@ -1,5 +1,6 @@
 .breadcrumb-background{
   background: #6DB407;
+  border-radius: 0 0  0.25rem  0.25rem;
 }
 .breadcrumb-background a{
   color: #862d59;

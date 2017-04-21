@@ -3,13 +3,14 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-import { AlertModule } from 'ngx-bootstrap';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header/header.component';
 import { InfoComponent } from './info/info.component';
 import { ContentComponent } from './content/content.component';
 import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
+import { MenuComponent } from './menu/menu.component';
 
 
 @NgModule({
@@ -18,13 +19,14 @@ import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
     HeaderComponent,
     InfoComponent,
     ContentComponent,
-    BreadcrumbComponent
+    BreadcrumbComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
-    AlertModule
+    NgbModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
